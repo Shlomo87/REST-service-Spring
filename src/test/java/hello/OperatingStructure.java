@@ -1,9 +1,8 @@
 package hello;
 
 /**
- * Created by klevshin on 4/26/2016.
+ * Created by klevshin on 5/11/2016.
  */
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)

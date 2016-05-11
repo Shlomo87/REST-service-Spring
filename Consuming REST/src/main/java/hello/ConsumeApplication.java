@@ -1,4 +1,4 @@
-package main.java.hello;
+package hello;
 
 /**
  * Created by klevshin on 4/26/2016.
@@ -29,3 +29,4 @@ public class ConsumeApplication {
 
 
 }
+
