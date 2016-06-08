@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Consuming REST/Consuming REST.iml" filepath="$PROJECT_DIR$/Consuming REST/Consuming REST.iml" />
       <module fileurl="file://$PROJECT_DIR$/REST Service Spring.iml" filepath="$PROJECT_DIR$/REST Service Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spock Spring/Spock Spring.iml" filepath="$PROJECT_DIR$/Spock Spring/Spock Spring.iml" />
     </modules>
   </component>
 </project>

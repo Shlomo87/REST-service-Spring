@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Consuming REST/pom.xml" />
+        <option value="$PROJECT_DIR$/Spock Spring/pom.xml" />
       </list>
     </option>
   </component>

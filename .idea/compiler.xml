@@ -24,11 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="Consuming REST" />
         <module name="REST Service Spring" />
+        <module name="Spock Spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Consuming REST" target="1.8" />
       <module name="REST Service Spring" target="1.8" />
+      <module name="Spock Spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
