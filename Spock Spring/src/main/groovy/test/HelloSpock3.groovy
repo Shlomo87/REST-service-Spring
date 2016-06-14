@@ -18,6 +18,7 @@ import spock.lang.*
 @ContextConfiguration( value = "/main/groovy/resources/client-service-context.xml")
 class HelloSpock3 extends Specification{
 
+
     @Autowired
     ClientFactoryRest serviceClient
 
@@ -32,15 +33,6 @@ class HelloSpock3 extends Specification{
         serviceClient.getRestTemplate().getOperation().equals("summing");
 
     }
-
-
-
-
-
-
-
-
-
 
 
 
