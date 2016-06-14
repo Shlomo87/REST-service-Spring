@@ -1,7 +1,7 @@
 package main.groovy.test
 
 /**
- * Created by klevshin on 6/8/2016.
+ * Created by klevshin on 6/13/2016.
  */
 
 import org.springframework.context.annotation.Bean
@@ -16,36 +16,20 @@ import org.springframework.test.context.ContextHierarchy;
 import spock.lang.*
 
 @ContextConfiguration( value = "/main/groovy/resources/client-service-context.xml")
-class HelloSpock3 extends Specification{
+class SendingArticleTests extends Specification {
 
     @Autowired
-    ClientFactoryRest serviceClient
+    SendingArticleTemplate sendingArticleTemplate
 
-    def "Check result"() {
+    def "Check sending article"() {
         expect:
-        serviceClient.getRestTemplate().getResult().equals(150);
+        sendingArticleTemplate.getRestTemplate().getArticle().equals("LexusGS350")
 
     }
-
-    def "Check operation name"() {
-        expect:
-        serviceClient.getRestTemplate().getOperation().equals("summing");
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 }
+
+
+

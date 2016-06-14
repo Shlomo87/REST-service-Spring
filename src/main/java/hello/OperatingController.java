@@ -18,7 +18,7 @@ public class OperatingController {
     }
 
     @RequestMapping("/sendingArticle")
-    public String sendingArticle(@RequestParam( value = "article") String article) {
+    public DriveSubscriber sendingArticle(@RequestParam( value = "article") String article) {
 
         DrivePublisher publisher = new DrivePublisher();
         DriveSubscriber subscriber = new DriveSubscriber();
@@ -26,7 +26,8 @@ public class OperatingController {
 
         publisher.sendArticle(article);
 
-        return (subscriber.article);
+
+        return (subscriber);
 
     }
 

@@ -14,5 +14,11 @@
 
     </bean>
 
+    <bean id="sendingArticle" class="main.groovy.test.SendingArticleTemplate">
+
+    </bean>
+
 
 </beans>
+
+
