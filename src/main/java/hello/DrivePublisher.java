@@ -7,11 +7,12 @@ import java.util.ArrayList;
  */
 public class DrivePublisher {
     public ArrayList<DriveSubscriber> subscribers = new ArrayList<DriveSubscriber>();
+    public String SendingResult;
 
     public void sendArticle(String article) {
 
         for(DriveSubscriber subscriber : subscribers) {
-            subscriber.receiveArticle(article);
+            SendingResult = subscriber.receiveArticle(article);
         }
     }
 

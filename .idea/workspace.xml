@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c24c4949-665d-40d6-a7a3-21cacfbfbabe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/groovy/DriveSubscriberMock.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/DriveSubscriberMock.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/mockingTests/DriveSubscriberMock.class" afterPath="$PROJECT_DIR$/target/test-classes/mockingTests/DriveSubscriberMock.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/REST Service Spring.iml" afterPath="$PROJECT_DIR$/REST Service Spring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java" afterPath="$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java" afterPath="$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberMock.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberMock.groovy" />
     </list>
     <ignored path="REST Service Spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,18 +47,28 @@
       <file leaf-file-name="DrivePublisher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriveSubscriberMock.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DriveSubscriber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriveSubscriberMock.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberMock.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#22#49#0" expanded="true" />
                 <element signature="e#126#176#0" expanded="true" />
@@ -63,12 +77,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="publisher-subscriber-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/publisher-subscriber-context.xml">
+      <file leaf-file-name="DriveSubscriberStub.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberStub.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-              <folding />
+            <state relative-caret-position="332">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding>
+                <element signature="e#68#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +137,6 @@
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/ServiceTest.groovy" />
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/OperatingStructure.groovy" />
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/ClientFactoryRest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/SendingArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/OperatingController.java" />
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/SendingArticleServiceMethod.groovy" />
@@ -133,9 +147,12 @@
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/DriveSubsriberMock.groovy" />
         <option value="$PROJECT_DIR$/Spock Spring/src/main/groovy/test/HelloSpock3.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/publisher-subscriber-context.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/groovy/DriveSubscriberMock.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberMock.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberStub.groovy" />
       </list>
     </option>
   </component>
@@ -182,9 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,10 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,74 +313,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST Service Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST-service-Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spock Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST Service Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST-service-Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spock Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST Service Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="REST-service-Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Spock Spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,59 +332,7 @@
       <recent name="C:\Testing\Spring\REST-service-Spring\Spock Spring\src\main\groovy\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DriveSubscriberMock.MockingTest">
-    <configuration default="false" name="HelloSpock3.Injection works" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.groovy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Spock Spring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.groovy.test" />
-      <option name="MAIN_CLASS_NAME" value="main.groovy.test.HelloSpock3" />
-      <option name="METHOD_NAME" value="Injection works" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HelloSpock3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.groovy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Spock Spring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.groovy.test" />
-      <option name="MAIN_CLASS_NAME" value="main.groovy.test.HelloSpock3" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DriveSubscriberStub.StubbingTest1">
     <configuration default="false" name="HelloSpock3.Check result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -464,32 +359,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SendingArticleTests.Check sending article" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.groovy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Spock Spring" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="main.groovy.test" />
-      <option name="MAIN_CLASS_NAME" value="main.groovy.test.SendingArticleTests" />
-      <option name="METHOD_NAME" value="Check sending article" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="DriveSubscriberMock.MockingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -503,6 +372,84 @@
       <option name="PACKAGE_NAME" value="mockingTests" />
       <option name="MAIN_CLASS_NAME" value="mockingTests.DriveSubscriberMock" />
       <option name="METHOD_NAME" value="MockingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DriveSubscriberMock.MockingTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mockingTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="REST Service Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mockingTests" />
+      <option name="MAIN_CLASS_NAME" value="mockingTests.DriveSubscriberMock" />
+      <option name="METHOD_NAME" value="MockingTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DriveSubscriberMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mockingTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="REST Service Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mockingTests" />
+      <option name="MAIN_CLASS_NAME" value="mockingTests.DriveSubscriberMock" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DriveSubscriberStub.StubbingTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mockingTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="REST Service Spring" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mockingTests" />
+      <option name="MAIN_CLASS_NAME" value="mockingTests.DriveSubscriberStub" />
+      <option name="METHOD_NAME" value="StubbingTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -789,19 +736,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Application" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.OperationTesting" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Injection works" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HelloSpock3" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Check result" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SendingArticleTests.Check sending article" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Check result" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest1" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.DriveSubscriberStub.StubbingTest1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Check result" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SendingArticleTests.Check sending article" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HelloSpock3" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Injection works" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DriveSubscriberStub.StubbingTest1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DriveSubscriberMock.MockingTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloSpock3.Check result" />
       </list>
     </recent_temporary>
   </component>
@@ -822,40 +769,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DriveSubscriberMock_MockingTest - 2016.06.14 at 14h 44m 29s.xml">
+    <history-entry file="DriveSubscriberMock - 2016.06.15 at 11h 15m 16s.xml">
+      <configuration name="DriveSubscriberMock" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DriveSubscriberMock_MockingTest - 2016.06.15 at 11h 04m 59s.xml">
       <configuration name="DriveSubscriberMock.MockingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DriveSubscriberMock_MockingTest - 2016.06.14 at 14h 46m 46s.xml">
+    <history-entry file="DriveSubscriberMock_MockingTest - 2016.06.15 at 11h 05m 42s.xml">
       <configuration name="DriveSubscriberMock.MockingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloSpock3_Check_result - 2016.06.14 at 14h 25m 39s.xml">
-      <configuration name="HelloSpock3.Check result" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberMock_MockingTest1 - 2016.06.15 at 11h 07m 04s.xml">
+      <configuration name="DriveSubscriberMock.MockingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SendingArticleTests_Check_sending_article - 2016.06.13 at 12h 16m 40s.xml">
-      <configuration name="SendingArticleTests.Check sending article" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 21m 39s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SendingArticleTests_Check_sending_article - 2016.06.13 at 12h 17m 43s.xml">
-      <configuration name="SendingArticleTests.Check sending article" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 23m 47s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SendingArticleTests_Check_sending_article - 2016.06.13 at 12h 18m 57s.xml">
-      <configuration name="SendingArticleTests.Check sending article" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 24m 15s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SendingArticleTests_Check_sending_article - 2016.06.13 at 13h 32m 45s.xml">
-      <configuration name="SendingArticleTests.Check sending article" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 25m 34s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceTest_Injection_works_with_@ContextHierarchy - 2016.06.08 at 12h 02m 28s.xml">
-      <configuration name="ServiceTest.Injection works with @ContextHierarchy" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 28m 36s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ServiceTest_Injection_works_with_@ContextHierarchy - 2016.06.08 at 12h 03m 13s.xml">
-      <configuration name="ServiceTest.Injection works with @ContextHierarchy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ServiceTest_Injection_works_with_@ContextHierarchy - 2016.06.08 at 12h 05m 18s.xml">
-      <configuration name="ServiceTest.Injection works with @ContextHierarchy" configurationId="JUnit" />
+    <history-entry file="DriveSubscriberStub_StubbingTest1 - 2016.06.15 at 11h 29m 25s.xml">
+      <configuration name="DriveSubscriberStub.StubbingTest1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -903,7 +850,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Spock Spring/src/main/groovy/test/Service1.groovy" />
     <entry file="file://$PROJECT_DIR$/Spock Spring/src/main/groovy/test/ServiceTest.groovy" />
     <entry file="file://$PROJECT_DIR$/Spock Spring/src/main/groovy/test/ServiceTest.groovy" />
     <entry file="file://$PROJECT_DIR$/Spock Spring/pom.xml">
@@ -1066,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,24 +1044,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#161#162#0" expanded="false" />
-            <element signature="e#188#189#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spock Spring/src/main/groovy/test/DriveSubsriberMock.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#73#123#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,15 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/OperatingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,10 +1080,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/DriveSubscriberMock.groovy" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="519">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1176,29 +1097,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/DriveSubscriberMock.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/OperatingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberMock.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="e#22#49#0" expanded="true" />
             <element signature="e#126#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/DrivePublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/DriveSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/mockingTests/DriveSubscriberStub.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#68#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

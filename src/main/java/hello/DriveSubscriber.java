@@ -7,8 +7,9 @@ public class DriveSubscriber {
 
     public String article;
 
-    public void receiveArticle(String s) {
+    public String receiveArticle(String s) {
         article = s;
+        return article + " ok";
     }
 
 }
